@@ -15,6 +15,10 @@ This OSD lists all your active workspaces in a left-justified horizontal flow, r
 
 ---
 
+OSD = shell.qml
+toggle script = slide.sh
+Put the slide.sh script in your hyprland.lua keybinding section.
+
 #Hyprland.lua keybinding  
 -- Path targeting your custom executable slide control script  
 local slide_script = os.getenv("HOME") .. "/.config/quickshell/ActiveWorkspaces/slide.sh"  
@@ -37,5 +41,5 @@ Place the files inside your `.config` directory like this:
 ```text
 ~/.config/quickshell/ActiveWorkspaces/
 ├── shell.qml
-└── toggle_overview.sh  
+└── slide.sh  
 
