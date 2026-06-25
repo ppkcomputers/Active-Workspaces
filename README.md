@@ -16,18 +16,18 @@ This OSD lists all your active workspaces in a left-justified horizontal flow, r
 ---
 
 #Hyprland.lua keybinding  
--- Path targeting your custom executable slide control script
-local slide_script = os.getenv("HOME") .. "/.config/quickshell/ActiveWorkspaces/slide.sh"
+-- Path targeting your custom executable slide control script  
+local slide_script = os.getenv("HOME") .. "/.config/quickshell/ActiveWorkspaces/slide.sh"  
 
--- Key binding layout matching modern Hyprland Lua systems
-hl.binds = {
-    {
-        mod = { "SUPER" },
-        key = "W",
-        dispatcher = "exec",
-        arg = slide_script
-    }
-}
+-- Key binding layout matching modern Hyprland Lua systems  
+hl.binds = {  
+    {  
+        mod = { "SUPER" },  
+        key = "W",  
+        dispatcher = "exec",  
+        arg = slide_script  
+    }  
+}  
 
 
 ## Installation & Setup
